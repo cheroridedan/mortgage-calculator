@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       
-      <Navbar/>
+      <Navbar/>w
       <SliderSelect/>
       <TenureSelect/>
       <Result/>
