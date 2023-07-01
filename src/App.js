@@ -1,7 +1,17 @@
+import Navbar from "./components/Navbar"
+import SliderSelect from "./components/SliderSelect"
+import TenureSelect from "./components/TenureSelect"
+import  Result from "./components/Result";
+
 function App() {
   return (
     <div className="App">
-      Hello Chum chum
+      
+      <Navbar/>
+      <SliderSelect/>
+      <TenureSelect/>
+      <Result/>
+
     </div>
   );
 }
